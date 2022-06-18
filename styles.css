@@ -10,6 +10,7 @@ img
 {
   padding-left: 20px;
   padding-bottom: 10px;
+  border-radius: 12px;
 }
 
 .vintage
@@ -20,6 +21,7 @@ img
   width: 380px;
   height: 535px;
   background-color: #F2F2F2;
+  border-radius:12px;
 }
 h4
 {
