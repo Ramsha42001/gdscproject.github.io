@@ -1,0 +1,118 @@
+.container1
+{
+  width: 80%;
+  height: 80%;
+  margin: 10px 10px 10px 10px;
+  padding-left: 30px;
+}
+
+img
+{
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.vintage
+{
+  position: relative;
+  left: 900px;
+  bottom: 900px;
+  width: 380px;
+  height: 535px;
+  background-color: #F2F2F2;
+}
+h4
+{
+  padding-left: 100px;
+  padding-top: 50px;
+}
+
+.placeicon
+{
+  font-family: fontawesome;
+  font-size: 16px;
+  padding-left: 20px;
+}
+
+input
+{
+  display: block;
+  width: 465px;
+  height: 56px;
+  left: 240px;
+  top: 218px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight:500;
+}
+
+
+h1
+{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+color: #4E5150;
+}
+
+h3
+{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+color: #333333;
+}
+
+label
+{
+  font-size: 12px;
+  color: #4F4F4F;
+  line-height: 14.63px;
+}
+
+div
+{
+    font-family: 'Montserrat';
+}
+
+div h5
+{
+  display:  block;
+}
+
+#city
+{
+  display: block;
+}
+p
+{
+  position: relative;
+  left: 40px;
+  bottom: 20px;
+  font-size: 12px;
+  color: #4F4F4F;
+  font-weight: 600;
+  line-height: 14.63px;
+  vertical-align: top;
+}
+
+
+.checkbox1
+{
+  width: 21px;
+  height: 21px;
+}
+.button
+{
+  position: relative;
+  width: 166px;
+  height: 54px;
+  border-radius: 12px;
+  color: white;
+  cursor: pointer;
+  background-color: #F2994A;
+}
