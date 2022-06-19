@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css" integrity="sha512-xX2rYBFJSj86W54Fyv1de80DWBq7zYLn2z0I9bIhQG+rxIF6XVJUpdGnsNHWRa6AvP89vtFupEPDP8eZAtu9qA==" crossorigin="anonymous" referrerpolicy="no-referrer" >
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <script type="text/javascript">
-    var pressedButton = document.getElementsByTagName("button")[0];
-    </script>
+    <script>
+    function showMessage() {
+                 alert("Sucessful.");
+             }
+</script>
   </head>
   <body>
     <div class="container1">
@@ -44,7 +46,7 @@
 
             <div class="country">
               <h5  style="font-weight:normal">Country</h5>
-                <input type="text"  placeholder=" &#xf0ac; Your Country..." class=" ; placeicon">
+                <input type="text"  placeholder=" &#xf0ac; Your Country..." class="placeicon">
             </div>
 
             <div class="postalCode">
@@ -53,15 +55,20 @@
             </div>
             <div class="checkbox">
               <input class="checkbox1" type="checkbox"  value="" class="placeicon">
-              <p>Save this information for next time</p>
-              <button class="button" type="button" name="button">Continue</button>
+              <p class="save">Save this information for next time</p>
+              <button class="button" type="button" onClick="showMessage()"  name="button">Continue</button>
             </div>
 
             <div class="vintage">
                <h4>Vintage backpack</h4>
-               <img src="images/bagpack.png" style="width: 175.7px; height: 135.91px"  alt="">
+               <img class="upperImage"src="images/bagpack.png" style="width: 175.7px; height: 135.91px"  alt="">
+               <p class="price1">$54 .99<del style="color:black;">94.99</del></p>
                <h4 class="title">Levis Shoes</h4>
-               <img src="images/shoes.png"style="width: 175.7px; height: 135.91px" alt="">
+               <img class="lowerImage" src="images/shoes.png" style="width: 175.7px; height: 135.91px" alt="">
+               <p class="price2">$74.99         <del style="color:black;">124.99</del></p>
+               </div>
+               <div>
+
 
 
             </div>
@@ -75,3 +82,4 @@
 
   </body>
 </html>
+
